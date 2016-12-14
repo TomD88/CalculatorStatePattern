@@ -13,6 +13,8 @@ namespace CalculatorStatePattern
             InputConsoleReader inputConsoleReader = 
                 new InputConsoleReader();
 
+            Console.WriteLine("Inizio del programma");
+
             while (true)
             {
                 inputConsoleReader.NextInput();
